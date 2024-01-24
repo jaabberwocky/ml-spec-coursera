@@ -1,0 +1,21 @@
+[project]
+name = "ml-spec-coursera"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "tobias", email = "tobias@tobias-leong.dev"},
+]
+dependencies = [
+    "jupyterlab>=4.0.11",
+    "numpy>=1.26.3",
+    "matplotlib>=3.8.2",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.4.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
